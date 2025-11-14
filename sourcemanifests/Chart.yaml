@@ -1,0 +1,5 @@
+apiVersion: v2
+name: aws-nginx-chart
+description: A sample AWS-specific NGINX Helm chart to migrate to Azure AKS
+version: 0.1.0
+appVersion: "1.0"
