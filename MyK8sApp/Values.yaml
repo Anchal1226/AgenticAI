@@ -1,1 +1,11 @@
-nginx workloadpoint
+
+
+replicaCount: 2
+image:
+  repository: nginx
+  tag: latest
+service:
+  type: LoadBalancer
+  port: 80
+  annotations:
+    service.beta.kubernetes.io/azure-load-balancer-internal: "true"
