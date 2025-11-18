@@ -1,0 +1,5 @@
+apiVersion: v2
+name: azure-nginx-chart
+description: A sample Azure-specific NGINX Helm chart migrated from AWS
+version: 0.1.0
+appVersion: "1.0"
